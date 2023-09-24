@@ -90,7 +90,7 @@ const WebPageRoute = (req, res) => {
     });
 
     res.write(FileCollection.style);
-  }
+  } 
 
   else if (req.url === "/work.css") {
     res.writeHead(200, {
